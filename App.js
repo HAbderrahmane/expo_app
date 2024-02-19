@@ -60,7 +60,7 @@ export default function App() {
         },
         {
           headers: {
-            'Authorization': '5b3ce3597851110001cf624807bf9138d19d430e9b74a566557649d0',
+            'Authorization': 'api key',
           },
         }
       );
