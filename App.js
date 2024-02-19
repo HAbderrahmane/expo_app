@@ -123,7 +123,7 @@ export default function App() {
   const handleResultPress = async (placeId) => {
     try {
       const response = await axios.get(
-        `https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&key=5b3ce3597851110001cf624807bf9138d19d430e9b74a566557649d0`
+        `https://maps.googleapis.com/maps/api/place/details/json?placeid=${placeId}&key=api-key`
       );
 
       if (response.data.result) {
