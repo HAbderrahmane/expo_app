@@ -109,7 +109,7 @@ export default function App() {
     setSearchQuery(text);
     try {
       const response = await axios.get(
-        `https://maps.googleapis.com/maps/api/place/autocomplete/json?input=${text}&types=geocode&key=5b3ce3597851110001cf624807bf9138d19d430e9b74a566557649d0`
+        `https://maps.googleapis.com/maps/api/place/autocomplete/json?input=${text}&types=geocode&key=api-key`
       );
 
       if (response.data.predictions) {
